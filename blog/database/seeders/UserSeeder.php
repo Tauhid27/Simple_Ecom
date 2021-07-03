@@ -20,7 +20,6 @@ class UserSeeder extends Seeder
                 'name'=>'tauhid',
                 'email'=>'mdtauhid@gmail.com',
                 'password'=>Hash::make('tauhid')
-            ]
-            );
+            ]);
     }
 }
