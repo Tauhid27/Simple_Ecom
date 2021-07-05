@@ -33,3 +33,6 @@ Route::get('ordernow',[ProductController::class , 'orderNow']);
 Route::post('orderplace',[ProductController::class , 'orderPlace']);
 Route::get('myorders',[ProductController::class , 'myOrders']);
 Route::get("search",[ProductController::class,'search']);
+
+Route::view('/register','register');
+Route::post('/register',[UserController::class , 'register']);
